@@ -1,0 +1,29 @@
+{
+  "short_name": "Sir Chief D.O Ejims & Brothers Trading Store",
+  "name": "Sir Chief D.O Ejims & Brothers Trading Store",
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#c69400",
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#c69400",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Get All Your Building Materials And Other Services At A Sufficient And Reliable Rate",
+      "url": "/",
+      "icons": [{ "src": "/logo.png", "sizes": "800x800" }]
+    }
+  ],
+  "description": "Get All Your Building Materials And Other Services At A Sufficient And Reliable Rate",
+  "screenshots": [
+    {
+      "src": "/img1.jpg",
+      "type": "image/jpg",
+      "sizes": "1366x689",
+      "form_factor": "narrow"
+    }
+  ]
+}

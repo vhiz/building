@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 box-border;
+}
+body {
+  @apply bg-[#fcfbfc] font-poppins scrollbar-none ;
+}
+html {
+  @apply snap-y snap-mandatory scroll-smooth;
+}
+.btn {
+  @apply w-full cursor-pointer rounded-full transition-all flex justify-center items-center font-medium;
+}
+
+.btn-sm {
+  @apply w-[146px] h-[50px];
+}
+.btn-lg {
+  @apply w-[168px] h-[54px];
+}
+.btn-accent {
+  @apply bg-accent text-white hover:bg-accent-hover;
+}
+.btn-white {
+  @apply bg-white text-primary hover:bg-white/80;
+}
+
+.lazy-load-image-background {
+  @apply w-full h-full transition-all ease-in-out duration-300 overflow-hidden;
+}
